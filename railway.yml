@@ -1,4 +1,6 @@
 services:
-  app:
+  api:
+    envs:
+      - PORT: 8000
     ports:
-      - 8000:80
+      - 8000
